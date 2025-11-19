@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Talently Hub — Landing Page</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Conteúdo principal -->
+  <div class="container" role="main">
+
+    <!-- HEADER -->
+    <header role="banner" aria-label="Cabeçalho principal com navegação">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">TH</div>
+        <div>
+          <h1 class="brand-title">
+            TALENTLY <span>HUB</span>
+          </h1>
+          <p class="brand-sub">CONECTANDO TALENTOS</p>
+        </div>
+      </div>
+
+      <nav role="navigation" aria-label="Menu principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#vagas">Vagas</a>
+        <a class="login" href="#">Login</a>
+        <button class="cta">Ver Planos</button>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero reveal" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <h2 id="hero-title">CONSTRUA O FUTURO PROFISSIONAL QUE VOCÊ SEMPRE DESEJOU.</h2>
+        <p>Plataforma inteligente para quem busca migrar de carreira: orientação, conexões e vagas.</p>
+      </div>
+
+      <div class="hero-illus">
+        <img src="https://cdn-icons-png.flaticon.com/512/706/706830.png"
+             width="250"
+             alt="Ilustração de uma pessoa utilizando um laptop">
+      </div>
+    </section>
+
+    <!-- FORMULÁRIO -->
+    <div class="band reveal" aria-label="Formulário de cadastro">
+      <form class="signup" aria-labelledby="form-title">
+        <h3 id="form-title">Cadastre-se</h3>
+
+        <label for="nome">Nome completo</label>
+        <input id="nome" type="text" placeholder="Seu nome">
+
+        <label for="area-estudo">Área atual de estudo</label>
+        <input id="area-estudo" type="text" placeholder="Área em Estudo">
+
+        <label for="area-desejada">Área que deseja ingressar</label>
+        <input id="area-desejada" type="text" placeholder="Área que deseja ingressar">
+
+        <button type="submit">Cadastrar-se</button>
+      </form>
+    </div>
+
+    <!-- BENEFÍCIOS -->
+    <section id="beneficios" class="beneficios reveal" aria-labelledby="beneficios-title">
+      <h2 id="beneficios-title" class="center title">Por que usar o Talently Hub?</h2>
+
+      <div class="benefit-grid">
+        <div class="benefit-card">
+          <h3>✓ Gratuito</h3>
+          <p>Acesse sua análise e plano profissional sem pagar nada.</p>
+        </div>
+
+        <div class="benefit-card">
+          <h3>✓ Roadmap Personalizado</h3>
+          <p>Receba um caminho claro para sua nova carreira.</p>
+        </div>
+
+        <div class="benefit-card">
+          <h3>✓ Vagas Exclusivas</h3>
+          <p>Encontre vagas reais alinhadas ao seu perfil.</p>
+        </div>
+
+        <div class="benefit-card">
+          <h3>✓ Foco em Transição</h3>
+          <p>Feito para iniciantes que ainda não têm experiência.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="sobre reveal" aria-labelledby="sobre-title">
+      <h2 id="sobre-title" class="center title">Sobre o Talently Hub</h2>
+      <p class="sobre-text">
+        Somos uma plataforma criada para apoiar profissionais que desejam migrar de carreira.
+        Ajudamos você a entender suas habilidades, comparar com o mercado e construir um plano eficiente.
+      </p>
+    </section>
+
+    <!-- 3 ETAPAS -->
+    <h2 class="center title reveal">Seu plano personalizado em 3 etapas</h2>
+    <section class="steps reveal">
+      <div class="step">
+        <h3>1. Análise de Habilidades</h3>
+        <p>Compara seu perfil atual e identifica gaps.</p>
+      </div>
+      <div class="step">
+        <h3>2. Sugestões de Cursos</h3>
+        <p>Cursos personalizados para sua jornada.</p>
+      </div>
+      <div class="step">
+        <h3>3. Gerar Roadmap</h3>
+        <p>Criamos um passo-a-passo claro para sua nova carreira.</p>
+      </div>
+    </section>
+
+    <!-- CURSOS -->
+<section id="cursos" class="cursos reveal" aria-labelledby="cursos-title">
+  <h2 id="cursos-title" class="center title">Cursos para acelerar sua migração de carreira</h2>
+  <p class="cursos-subtitle">
+    Veja alguns cursos recomendados e gratuitos que vão te preparar para entrar nas áreas de UX, UI e Dados.
+  </p>
+
+  <div class="cursos-grid">
+
+    <article class="curso-card">
+      <div class="curso-icon">🧠</div>
+      <h3>Fundamentos de UX Design (Google)</h3>
+      <p>Curso do Google pelo Coursera, ideal para iniciantes.</p>
+      <a class="curso-btn" href="https://www.coursera.org/learn/fundamentos-do-design-da-experiencia-do-usuario-ux" target="_blank">Acessar curso</a>
+    </article>
+
+    <article class="curso-card">
+      <div class="curso-icon">🎨</div>
+      <h3>UX / UI Fundamentos (USP)</h3>
+      <p>Curso da USP com foco em UI, UX, wireframes e interface.</p>
+      <a class="curso-btn" href="https://www.coursera.org/learn/ux-ui-design-de-interface" target="_blank">Acessar curso</a>
+    </article>
+
+    <article class="curso-card">
+      <div class="curso-icon">📐</div>
+      <h3>Introdução à UX (FGV)</h3>
+      <p>Curso gratuito da FGV sobre usabilidade e experiência.</p>
+      <a class="curso-btn" href="https://www.classcentral.com/course/fgv-educacao-executiva-introducao-a-experiencia-do-usuario-ux-300098" target="_blank">Acessar curso</a>
+    </article>
+
+    <article class="curso-card">
+      <div class="curso-icon">🧪</div>
+      <h3>UX & UI com Figma</h3>
+      <p>Curso gratuito da Cursa com certificado.</p>
+      <a class="curso-btn" href="https://cursa.app/pt/curso-gratuito/ux-and-ui-using-figma-for-beginners-cefb" target="_blank">Acessar curso</a>
+    </article>
+
+    <article class="curso-card">
+      <div class="curso-icon">💡</div>
+      <h3>Introdução ao UI/UX</h3>
+      <p>Curso da Alison com foco em prototipação.</p>
+      <a class="curso-btn" href="https://alison.com/pt-BR/claro/introducao-ao-design-de-ui-ux" target="_blank">Acessar curso</a>
+    </article>
+
+    <article class="curso-card">
+      <div class="curso-icon">🌐</div>
+      <h3>UX Design (60h)</h3>
+      <p>Curso nacional e gratuito da Pensar Cursos.</p>
+      <a class="curso-btn" href="https://www.pensarcursos.com.br/curso/ux-design" target="_blank">Acessar curso</a>
+    </article>
+
+    <article class="curso-card">
+      <div class="curso-icon">📊</div>
+      <h3>UX e UI - IFPA</h3>
+      <p>Curso online gratuito do IFPA.</p>
+      <a class="curso-btn" href="https://mooc.ifpa.edu.br/course/ux-e-ui-design/intro" target="_blank">Acessar curso</a>
+    </article>
+
+  </div>
+</section>
+
+    <!-- CONEXÕES + VAGAS -->
+    <div class="grid-2 reveal">
+      <section class="connections">
+        <h2>Conexões recentes</h2>
+        <p class="muted tagline">Pessoas com objetivos parecidos se conectam aqui.</p>
+
+        <ul class="conn-list">
+          <li class="conn-item">
+            <div class="avatar" aria-hidden="true">GM</div>
+            <div>
+              <b>Gabriel Mendes</b>
+              <p class="conn-sub">Front-end</p>
+            </div>
+          </li>
+
+          <li class="conn-item">
+            <div class="avatar orange" aria-hidden="true">AC</div>
+            <div>
+              <b>Ana Cláudia Santos</b>
+              <p class="conn-sub">Data Science</p>
+            </div>
+          </li>
+
+          <li class="conn-item">
+            <div class="avatar blue" aria-hidden="true">MB</div>
+            <div>
+              <b>Monique Barbosa</b>
+              <p class="conn-sub">UX/UI</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <aside id="vagas" class="jobs">
+        <h2>Vagas Exclusivas</h2>
+
+        <div class="job-list">
+          <button class="job-btn">Analista de Dados – Presencial</button>
+          <button class="job-btn">Dev Front-end – Híbrido</button>
+          <button class="job-btn">Dev Back-end – Remoto</button>
+          <button class="job-btn highlight">Designer UX – Remoto</button>
+        </div>
+
+        <article class="job-card">
+          <div class="itau" aria-hidden="true">Itaú</div>
+          <div>
+            <h3>Designer UX</h3>
+            <p>São Paulo – SP • +10 mil colaboradores</p>
+            <p><b>Benefícios:</b> VR, VA, Plano de Saúde • R$ 2.500</p>
+            <p><b>Requisitos:</b> Formação em UX/UI</p>
+          </div>
+        </article>
+      </aside>
+    </div>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq reveal">
+      <h2 class="center title">Perguntas Frequentes</h2>
+
+      <details class="faq-item">
+        <summary><strong>A plataforma é gratuita?</strong></summary>
+        <p>Sim, o acesso inicial é 100% gratuito.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary><strong>Preciso ter experiência?</strong></summary>
+        <p>Não. É ideal para iniciantes.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary><strong>Como funciona o roadmap?</strong></summary>
+        <p>Você recebe um plano detalhado com cursos e trilha personalizada.</p>
+      </details>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-final reveal">
+      <h2>Pronto para iniciar sua nova carreira?</h2>
+      <button class="cta large">Começar agora</button>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter reveal">
+      <h3 id="newsletter-title">Receba novas vagas semanalmente:</h3>
+      <div class="newsletter-row">
+        <input id="email-news" type="email" placeholder="Seu e-mail">
+        <button>Inscrever</button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="reveal" role="contentinfo" aria-label="Informações do rodapé">
+      <div class="footer-brand">
+        <div class="footer-logo" aria-hidden="true">TH</div>
+        <p>TALENTLY HUB</p>
+        <span>CONECTANDO TALENTOS</span>
+      </div>
+
+      <div class="footer-col">
+        <p>Acesso</p>
+        <a href="#inicio">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#vagas">Vagas</a>
+        <a href="#faq">FAQ</a>
+      </div>
+
+      <div class="footer-col">
+        <p>Termos</p>
+        <a href="#">Termos de Uso</a>
+        <a href="#">Política de Privacidade</a>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- SCROLL REVEAL -->
+  <script>
+    const elements = document.querySelectorAll('.reveal');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.15 });
+
+    elements.forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
