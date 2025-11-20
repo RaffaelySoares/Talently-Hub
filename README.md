@@ -80,8 +80,7 @@ A landing page foi construída considerando as recomendações da **WCAG 2.1**, 
 ## ✨ Tecnologias Utilizadas
 
 - **HTML5**  
-- **CSS3**  
-- **JavaScript (Intersection Observer)**  
+- **CSS3**   
 - **Google Fonts (Poppins)**  
 - **Responsividade com Flexbox e Grid**
 
